@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #0f0f0f;
+    background-image: url('https://removal.ai/wp-content/uploads/2021/09/black-background-04-coolbackgrounds.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1e845f;
+}
+
+.container {
+    text-align: center;
+}
+
+.content {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #1e845f;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #1e845f;
+}
+
+.ai-animation {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 30px;
+    background: url('https://i.gifer.com/XOsX.gif') center center no-repeat;
+    background-size: contain;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background: #1e845f;
+    color: #000;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #00cc00;
+}
